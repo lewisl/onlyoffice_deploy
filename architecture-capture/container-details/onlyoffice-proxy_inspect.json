@@ -1,0 +1,339 @@
+[
+    {
+        "Id": "827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663",
+        "Created": "2025-07-30T14:24:30.240926443Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 59841,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-30T14:24:30.796048838Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-07-30T14:24:36.822593733Z",
+                        "End": "2025-07-30T14:24:37.182249492Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:37.18377063Z",
+                        "End": "2025-07-30T14:25:37.246821333Z",
+                        "ExitCode": 0,
+                        "Output": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:2cd1d97f893f70cee86a38b7160c30e5750f3ed6ad86c598884ca9c6a563a501",
+        "ResolvConfPath": "/var/lib/docker/containers/827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663/hostname",
+        "HostsPath": "/var/lib/docker/containers/827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663/hosts",
+        "LogPath": "/var/lib/docker/containers/827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663/827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663-json.log",
+        "Name": "/onlyoffice-proxy",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/app/onlyoffice/config/nginx/templates/proxy.upstream.conf.template:/etc/nginx/templates/proxy.upstream.conf.template:ro",
+                "/app/onlyoffice/config/nginx/onlyoffice-proxy.conf:/etc/nginx/conf.d/default.conf:rw",
+                "onlyoffice_webroot_path:/letsencrypt:rw",
+                "/mnt/docspace_data/log_data:/var/log/nginx:rw",
+                "/app/onlyoffice/config/nginx/templates/nginx.conf.template:/etc/nginx/nginx.conf:rw",
+                "/app/onlyoffice/config/nginx/letsencrypt.conf:/etc/nginx/includes/letsencrypt.conf:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "onlyoffice",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "827d387f805c4626751a429b8091cfeaf0c910011cffbc07b7ad06529c37a663",
+                "LowerDir": "/var/lib/docker/overlay2/ddcdeb720d96beeee7fffb4ccf7b9efa0cef5a424ca59d22349dbb25fc536a63-init/diff:/var/lib/docker/overlay2/45f5577bafacdc13a6594634c34a5b458999951cc1b4c19a0998e9f186fe79da/diff:/var/lib/docker/overlay2/79247fdda39125f819551dc0cf7f7b648a236b5d6340f6271dae49405033735f/diff:/var/lib/docker/overlay2/b61aebd1204c2e133493ca8722cf7e6cd0f24fd196d1b132f4d5ce50da9d4481/diff:/var/lib/docker/overlay2/ec753f86db3a0d3b378281205aab2a1a106c1136cef5c8c30a823241807f79b6/diff:/var/lib/docker/overlay2/4be10f055c55ea81fce08e9c174df9f3a8a1800edb528def5d1d7eb772625dcd/diff:/var/lib/docker/overlay2/09cc105af1c71ec222813de9872fa3fc00d5112422901762c60268c5ea1b5a5a/diff:/var/lib/docker/overlay2/7c58d4e43183dd55ca177405edddc41213b3650de09e0d87941becb7f4ccb270/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ddcdeb720d96beeee7fffb4ccf7b9efa0cef5a424ca59d22349dbb25fc536a63/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ddcdeb720d96beeee7fffb4ccf7b9efa0cef5a424ca59d22349dbb25fc536a63/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ddcdeb720d96beeee7fffb4ccf7b9efa0cef5a424ca59d22349dbb25fc536a63/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/app/onlyoffice/config/nginx/templates/proxy.upstream.conf.template",
+                "Destination": "/etc/nginx/templates/proxy.upstream.conf.template",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/app/onlyoffice/config/nginx/onlyoffice-proxy.conf",
+                "Destination": "/etc/nginx/conf.d/default.conf",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "onlyoffice_webroot_path",
+                "Source": "/var/lib/docker/volumes/onlyoffice_webroot_path/_data",
+                "Destination": "/letsencrypt",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/log_data",
+                "Destination": "/var/log/nginx",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/app/onlyoffice/config/nginx/templates/nginx.conf.template",
+                "Destination": "/etc/nginx/nginx.conf",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/app/onlyoffice/config/nginx/letsencrypt.conf",
+                "Destination": "/etc/nginx/includes/letsencrypt.conf",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "827d387f805c",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "ROUTER_HOST=onlyoffice-router",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.29.0",
+                "NJS_VERSION=0.9.0",
+                "NJS_RELEASE=1~bookworm",
+                "PKG_RELEASE=1~bookworm",
+                "DYNPKG_RELEASE=1~bookworm"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "nginx -t || exit 1"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "nginx:latest",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "9cbfba824bbc951ccdf91b77e58aefc8cd1f4d3ae6edd436a3536d6d839a9cee",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:2cd1d97f893f70cee86a38b7160c30e5750f3ed6ad86c598884ca9c6a563a501",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "onlyoffice",
+                "com.docker.compose.project.config_files": "/app/onlyoffice/docspace.yml,/app/onlyoffice/db.yml,/app/onlyoffice/ds.yml,/app/onlyoffice/proxy.yml",
+                "com.docker.compose.project.working_dir": "/app/onlyoffice",
+                "com.docker.compose.service": "onlyoffice-proxy",
+                "com.docker.compose.version": "2.38.2",
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "baced4782c4829ae74d1496ae8310269eaae233c4040aa6e6e40f7e53c782b63",
+            "SandboxKey": "/var/run/docker/netns/baced4782c48",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "80"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "80"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "onlyoffice": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "onlyoffice-proxy",
+                        "onlyoffice-proxy"
+                    ],
+                    "MacAddress": "0a:c6:e6:65:80:8c",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5fb3d13dfdc985ef2a0ed6e9836181257cf5e1e2d8262e0e3c867cce765ee2cc",
+                    "EndpointID": "7ceec5c738ca0bd6b6ebb16b71e1cd754725c1f3b5e8910ccbc24aaf42e62b1d",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.5",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "onlyoffice-proxy",
+                        "827d387f805c"
+                    ]
+                }
+            }
+        }
+    }
+]

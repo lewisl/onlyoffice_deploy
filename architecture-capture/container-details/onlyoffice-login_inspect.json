@@ -1,0 +1,327 @@
+[
+    {
+        "Id": "b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315",
+        "Created": "2025-07-30T14:24:30.22798145Z",
+        "Path": "python3",
+        "Args": [
+            "docker-entrypoint.py",
+            "server.js",
+            "ASC.Login"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 59732,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-30T14:24:30.794413316Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-07-30T14:24:36.591979402Z",
+                        "End": "2025-07-30T14:24:37.705357465Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    20    0    20    0     0     28      0 --:--:-- --:--:-- --:--:--    28\n{\"status\":\"healthy\"}"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:37.706710473Z",
+                        "End": "2025-07-30T14:25:37.779210566Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100    20    0    20    0     0   1805      0 --:--:-- --:--:-- --:--:--  2000\n{\"status\":\"healthy\"}"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:3aae39c67b1f09686e51dae01d1d804095d76757d309038c0b45bca545e5035c",
+        "ResolvConfPath": "/var/lib/docker/containers/b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315/hostname",
+        "HostsPath": "/var/lib/docker/containers/b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315/hosts",
+        "LogPath": "/var/lib/docker/containers/b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315/b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315-json.log",
+        "Name": "/onlyoffice-login",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/mnt/docspace_data/log_data:/var/log/onlyoffice:rw",
+                "/mnt/docspace_data/app_data:/app/onlyoffice/data:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "onlyoffice",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "b4a5b21b1fa46ab6c4deb6d4459fd52a0d0fab0025cb14e99a06471574ba1315",
+                "LowerDir": "/var/lib/docker/overlay2/14bba2950bddffd1c77d899d27294b679e8dd626a19b046a01ad5106197e8069-init/diff:/var/lib/docker/overlay2/b4c2a1350dd1ce8e88257e4e6bdf73c313cf11644faaa00e18cf8c19d543e563/diff:/var/lib/docker/overlay2/5dad498a1a2dccf47117cd2eb56ce6e72eda4337141c9a5ca2c0f2fcfebd09b4/diff:/var/lib/docker/overlay2/3aedaea5c716a049dd056855826dae72c21a898e7f7e34fbf1296468d18ea43e/diff:/var/lib/docker/overlay2/b1bd867ac34c23187d06b8b989c6837a6dd348218ef1d120852636887f01b68b/diff:/var/lib/docker/overlay2/33d28ed4d217f7a7e04e0fd360648d76db064b564d2467ddba80655825fe25e1/diff:/var/lib/docker/overlay2/0bd02fd35b47944ca33e8a7bd5aaf6537152d68c7d6e5705a97a0756b128f0ac/diff:/var/lib/docker/overlay2/2972df811fee2426e999382d75d5e029b7ff43f24f44e53a47685848bccde10a/diff:/var/lib/docker/overlay2/1a03acae68b668eca626022e06fbdff0d6b40714845e617de514bef910a9155a/diff:/var/lib/docker/overlay2/13a97ca16e63b67fd7b7dd2eeadfbd0c8ca21bdfc1e6961dbdee3bcfa7ae84e0/diff:/var/lib/docker/overlay2/2a36cbb4f9edca1d16f9d353d37e75cbe0be67bc5f1f62d937a6d964ce6a3bc3/diff",
+                "MergedDir": "/var/lib/docker/overlay2/14bba2950bddffd1c77d899d27294b679e8dd626a19b046a01ad5106197e8069/merged",
+                "UpperDir": "/var/lib/docker/overlay2/14bba2950bddffd1c77d899d27294b679e8dd626a19b046a01ad5106197e8069/diff",
+                "WorkDir": "/var/lib/docker/overlay2/14bba2950bddffd1c77d899d27294b679e8dd626a19b046a01ad5106197e8069/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/log_data",
+                "Destination": "/var/log/onlyoffice",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/app_data",
+                "Destination": "/app/onlyoffice/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "b4a5b21b1fa4",
+            "Domainname": "",
+            "User": "root:root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5011": {},
+                "5050/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "ELK_HOST=",
+                "MYSQL_DATABASE=docspace",
+                "REDIS_PASSWORD=",
+                "ELK_CONTAINER_NAME=onlyoffice-opensearch",
+                "DOCUMENT_SERVER_JWT_HEADER=AuthorizationJwt",
+                "DOCUMENT_SERVER_URL_EXTERNAL=",
+                "DEBUG_INFO=false",
+                "DOCUMENT_SERVER_JWT_SECRET=bTRRro7INTYwlO0PvBajZprIrklW1HBR",
+                "NODE_OPTIONS=--max_old_space_size=4096",
+                "APP_KNOWN_NETWORKS=",
+                "RABBIT_VIRTUAL_HOST=/",
+                "DATABASE_MIGRATION=true",
+                "APP_KNOWN_PROXIES=",
+                "RABBIT_PASSWORD=guest",
+                "MYSQL_CONTAINER_NAME=onlyoffice-mysql-server",
+                "APP_DOTNET_ENV=",
+                "APP_URL_PORTAL=http://onlyoffice-router:8092",
+                "DOCUMENT_CONTAINER_NAME=onlyoffice-document-server",
+                "RABBIT_PROTOCOL=",
+                "REDIS_HOST=",
+                "APP_CORE_MACHINEKEY=iAHzTMx8Lx05",
+                "DOCUMENT_SERVER_URL_PUBLIC=/ds-vpath/",
+                "OAUTH_REDIRECT_URL=https://service.onlyoffice.com/oauth2.aspx",
+                "ELK_SHEME=http",
+                "RABBIT_HOST=",
+                "RABBIT_USER_NAME=guest",
+                "REDIS_PORT=6379",
+                "INSTALLATION_TYPE=COMMUNITY",
+                "MYSQL_USER=onlyoffice_user",
+                "APP_CORE_SERVER_ROOT=",
+                "REDIS_DB=0",
+                "RABBIT_PORT=5672",
+                "ROUTER_HOST=onlyoffice-router",
+                "ELK_PORT=9200",
+                "MYSQL_ROOT_PASSWORD=tFp7uKGHzB1hGCWHES1N",
+                "MYSQL_HOST=",
+                "REDIS_USER_NAME=",
+                "RABBIT_CONTAINER_NAME=onlyoffice-rabbitmq",
+                "MYSQL_PASSWORD=JO8PWS9l9H53T1UZppEe",
+                "REDIS_CONTAINER_NAME=onlyoffice-redis",
+                "MYSQL_PORT=3306",
+                "APP_CORE_BASE_DOMAIN=localhost",
+                "LOG_LEVEL=Warning",
+                "CERTIFICATE_PATH=",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=22.17.1",
+                "YARN_VERSION=1.22.22",
+                "BUILD_PATH=/var/www",
+                "SRC_PATH=/app/onlyoffice/src"
+            ],
+            "Cmd": [
+                "server.js",
+                "ASC.Login"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "curl --fail http://onlyoffice-login:5050/login/health || exit 1"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "onlyoffice/docspace-login:3.2.1.1",
+            "Volumes": null,
+            "WorkingDir": "/var/www/products/ASC.Login/login",
+            "Entrypoint": [
+                "python3",
+                "docker-entrypoint.py"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "a24b9c9421f9d11234c1894debcffa2ed65c5ccb8cc9b3c44900f912dfd77d4a",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:3aae39c67b1f09686e51dae01d1d804095d76757d309038c0b45bca545e5035c",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "onlyoffice",
+                "com.docker.compose.project.config_files": "/app/onlyoffice/docspace.yml,/app/onlyoffice/db.yml,/app/onlyoffice/ds.yml,/app/onlyoffice/proxy.yml",
+                "com.docker.compose.project.working_dir": "/app/onlyoffice",
+                "com.docker.compose.service": "onlyoffice-login",
+                "com.docker.compose.version": "2.38.2"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "bd90488f86dad58cd219253fef259071725f76bb8870a9bfd71a1c13ecbe7413",
+            "SandboxKey": "/var/run/docker/netns/bd90488f86da",
+            "Ports": {
+                "5011/tcp": null,
+                "5050/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "onlyoffice": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "onlyoffice-login",
+                        "onlyoffice-login"
+                    ],
+                    "MacAddress": "76:7c:9b:fa:f7:50",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5fb3d13dfdc985ef2a0ed6e9836181257cf5e1e2d8262e0e3c867cce765ee2cc",
+                    "EndpointID": "6cee22ae964506c9b1da8ef9451f606c44dee6338d993191ac4564dda63dc10f",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.4",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "onlyoffice-login",
+                        "b4a5b21b1fa4"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,378 @@
+[
+    {
+        "Id": "99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4",
+        "Created": "2025-07-30T14:24:30.242309854Z",
+        "Path": "/app/ds/run-document-server.sh",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 60082,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-30T14:24:31.041370943Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-07-30T14:24:47.558036856Z",
+                        "End": "2025-07-30T14:24:47.866942865Z",
+                        "ExitCode": 7,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to localhost port 8000 after 41 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:24:52.868969586Z",
+                        "End": "2025-07-30T14:24:53.079673206Z",
+                        "ExitCode": 7,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to localhost port 8000 after 5 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:24:58.080931816Z",
+                        "End": "2025-07-30T14:24:58.207924413Z",
+                        "ExitCode": 7,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to localhost port 8000 after 10 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:03.208777843Z",
+                        "End": "2025-07-30T14:25:03.282368707Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r100  1092  100  1092    0     0  97595      0 --:--:-- --:--:-- --:--:-- 99272\n{\"connectionsStat\":{\"hour\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"day\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"week\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"month\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}}},\"licenseInfo\":{\"count\":1,\"type\":3,\"packageType\":0,\"mode\":0,\"branding\":false,\"connections\":20,\"connectionsView\":20,\"customization\":false,\"advancedApi\":false,\"usersCount\":0,\"usersViewCount\":0,\"usersExpire\":86400,\"hasLicense\":false,\"buildDate\":\"2025-07-08T00:00:00.000Z\",\"startDate\":\"2025-07-01T00:00:00.000Z\",\"endDate\":null,\"customerId\":\"\",\"alias\":\"\",\"multitenancy\":false},\"serverInfo\":{\"buildVersion\":\"9.0.3\",\"buildNumber\":29,\"date\":\"2025-07-30T14:25:03.000Z\"},\"quota\":{\"edit\":{\"connectionsCount\":0,\"usersCount\":{\"unique\":0,\"anonymous\":0}},\"view\":{\"connectionsCount\":0,\"usersCount\":{\"unique\":0,\"anonymous\":0}},\"byMonth\":[]}}"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:33.283812501Z",
+                        "End": "2025-07-30T14:25:33.342469Z",
+                        "ExitCode": 0,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0{\"connectionsStat\":{\"hour\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"day\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"week\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}},\"month\":{\"edit\":{\"min\":0,\"avr\":0,\"max\":0},\"liveview\":{\"min\":0,\"avr\":0,\"max\":0},\"view\":{\"min\":0,\"avr\":0,\"max\":0}}},\"licenseInfo\":{\"count\":1,\"type\":3,\"packageType\":0,\"mode\":0,\"branding\":false,\"connections\":20,\"connectionsView\":20,\"customization\":false,\"advancedApi\":false,\"usersCount\":0,\"usersViewCount\":0,\"usersExpire\":86400,\"hasLicense\":false,\"buildDate\":\"2025-07-08T00:00:00.000Z\",\"startDate\":\"2025-07-01T00:00:00.000Z\",\"endDate\":null,\"customerId\":\"\",\"alias\":\"\",\"multitenancy\":false},\"serverInfo\":{\"buildVersion\":\"9.0.3\",\"buildNumber\":29,\"date\":\"2025-07-30T14:25:33.000Z\"},\"quota\":{\"edit\":{\"connectionsCount\":0,\"usersCount\":{\"unique\":0,\"anonymous\":0}},\"view\":{\"connectionsCount\":0,\"usersCount\":{\"unique\":0,\"anonymous\":0}},\"byMonth\":[]}}\r100  1092  100  1092    0     0   288k      0 --:--:-- --:--:-- --:--:--  355k\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:57c28621b2131f3782c65b7e26748503a0393b2968e4fef50966c5320ba2150f",
+        "ResolvConfPath": "/var/lib/docker/containers/99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4/hostname",
+        "HostsPath": "/var/lib/docker/containers/99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4/hosts",
+        "LogPath": "/var/lib/docker/containers/99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4/99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4-json.log",
+        "Name": "/onlyoffice-document-server",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/mnt/docspace_data/app_data:/var/www/onlyoffice/Data:rw",
+                "/mnt/docspace_data/log_data:/var/log/onlyoffice:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "onlyoffice",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "99d0b44c076575dc974c8df28b0b1642c594999911d1c19f8abfc2246401a8f4",
+                "LowerDir": "/var/lib/docker/overlay2/ee26b02db5265a64b8899542f10c2c38f978431a324f99bb538b12e7c760670f-init/diff:/var/lib/docker/overlay2/ad574c8c021465040a6c9169910c934cd3856833fc110aad17b4ab9be8f26d27/diff:/var/lib/docker/overlay2/4de7acaf42735165ac660635bbd2887305ca1b361a668a42ddbd2bcd786b8ca4/diff:/var/lib/docker/overlay2/1c4de494d90738ec00eab1b3466f18e57e3376c2ce6771babdc6f7b2e2c84825/diff:/var/lib/docker/overlay2/66582f861c839aea18e0e828f93056bdbc1060d01dac99d123ec8fe6b4887b84/diff:/var/lib/docker/overlay2/d715475c1ca4e8919d4affd39398f76811ca0e2bb3c45f124c02a5e4813bdb73/diff:/var/lib/docker/overlay2/4c8f6a93ea4dc96fc4fc7a1b8a6ef2ff76b310382287840b2ab718356d37dc4f/diff:/var/lib/docker/overlay2/3c3db7ac922690ea66715740b165dd8489e63cc63a2f7beb091ed539820abbc7/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ee26b02db5265a64b8899542f10c2c38f978431a324f99bb538b12e7c760670f/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ee26b02db5265a64b8899542f10c2c38f978431a324f99bb538b12e7c760670f/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ee26b02db5265a64b8899542f10c2c38f978431a324f99bb538b12e7c760670f/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "2c26361c22f3b50e926b7c9515eb9ea8e58ed10308f8183b30a9152fff51f1ae",
+                "Source": "/var/lib/docker/volumes/2c26361c22f3b50e926b7c9515eb9ea8e58ed10308f8183b30a9152fff51f1ae/_data",
+                "Destination": "/usr/share/fonts/truetype/custom",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "891a5e4427bf8317bf0056fe1991869049f963f2762cd98931c018206ed1ae35",
+                "Source": "/var/lib/docker/volumes/891a5e4427bf8317bf0056fe1991869049f963f2762cd98931c018206ed1ae35/_data",
+                "Destination": "/var/lib/onlyoffice",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/app_data",
+                "Destination": "/var/www/onlyoffice/Data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/log_data",
+                "Destination": "/var/log/onlyoffice",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "a149392b579d4bb14d4b8432fe4241259fd99d48f33c2830c20373da5c57ad42",
+                "Source": "/var/lib/docker/volumes/a149392b579d4bb14d4b8432fe4241259fd99d48f33c2830c20373da5c57ad42/_data",
+                "Destination": "/var/lib/postgresql",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "76446ad41ec8b2be9ee4934489a2f6e556c14bf6e2183b6897e02c18f85fdddf",
+                "Source": "/var/lib/docker/volumes/76446ad41ec8b2be9ee4934489a2f6e556c14bf6e2183b6897e02c18f85fdddf/_data",
+                "Destination": "/var/lib/rabbitmq",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "dad71cb513f18a10e01d6a0d1eb62718334972dcc30bcc590948abb9459b51ec",
+                "Source": "/var/lib/docker/volumes/dad71cb513f18a10e01d6a0d1eb62718334972dcc30bcc590948abb9459b51ec/_data",
+                "Destination": "/var/lib/redis",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "99d0b44c0765",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "80": {},
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": true,
+            "StdinOnce": false,
+            "Env": [
+                "JWT_SECRET=bTRRro7INTYwlO0PvBajZprIrklW1HBR",
+                "JWT_HEADER=AuthorizationJwt",
+                "JWT_IN_BODY=true",
+                "JWT_ENABLED=true",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "OC_RELEASE_NUM=23",
+                "OC_RU_VER=7",
+                "OC_RU_REVISION_VER=0",
+                "OC_RESERVED_NUM=25",
+                "OC_RU_DATE=01",
+                "OC_PATH=2370000",
+                "OC_FILE_SUFFIX=23.7.0.25.01",
+                "OC_VER_DIR=23_7",
+                "OC_DOWNLOAD_URL=https://download.oracle.com/otn_software/linux/instantclient/2370000",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "DEBIAN_FRONTEND=noninteractive",
+                "PG_VERSION=16",
+                "BASE_VERSION=24.04",
+                "COMPANY_NAME=onlyoffice",
+                "PRODUCT_NAME=documentserver",
+                "PRODUCT_EDITION=",
+                "DS_PLUGIN_INSTALLATION=false",
+                "DS_DOCKER_INSTALLATION=true"
+            ],
+            "Cmd": null,
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "curl",
+                    "-f",
+                    "http://localhost:8000/info/info.json"
+                ],
+                "Interval": 30000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 60000000000,
+                "Retries": 5
+            },
+            "Image": "onlyoffice/documentserver:9.0.3.1",
+            "Volumes": {
+                "/usr/share/fonts/truetype/custom": {},
+                "/var/lib/onlyoffice": {},
+                "/var/lib/postgresql": {},
+                "/var/lib/rabbitmq": {},
+                "/var/lib/redis": {},
+                "/var/log/onlyoffice": {},
+                "/var/www/onlyoffice/Data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/app/ds/run-document-server.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "00d80f6bd1e6c3e06d6add9541ee721167a3a0882799099140f17199c3e91b3f",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:57c28621b2131f3782c65b7e26748503a0393b2968e4fef50966c5320ba2150f",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "onlyoffice",
+                "com.docker.compose.project.config_files": "/app/onlyoffice/docspace.yml,/app/onlyoffice/db.yml,/app/onlyoffice/ds.yml,/app/onlyoffice/proxy.yml",
+                "com.docker.compose.project.working_dir": "/app/onlyoffice",
+                "com.docker.compose.service": "onlyoffice-document-server",
+                "com.docker.compose.version": "2.38.2",
+                "maintainer": "Ascensio System SIA <support@onlyoffice.com>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            },
+            "StopTimeout": 60
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "593e97460e19704637f4f15c78764ab4105344ab867e81cf338f5e1189dfdec9",
+            "SandboxKey": "/var/run/docker/netns/593e97460e19",
+            "Ports": {
+                "443/tcp": null,
+                "80/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "onlyoffice": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "onlyoffice-document-server",
+                        "onlyoffice-document-server"
+                    ],
+                    "MacAddress": "c6:0c:c9:ff:1c:79",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5fb3d13dfdc985ef2a0ed6e9836181257cf5e1e2d8262e0e3c867cce765ee2cc",
+                    "EndpointID": "d20da8d57c75385e5e822b9a50f1adbb2ac56520b8428fc9171eb6c40c5c5bb3",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.7",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "onlyoffice-document-server",
+                        "99d0b44c0765"
+                    ]
+                }
+            }
+        }
+    }
+]

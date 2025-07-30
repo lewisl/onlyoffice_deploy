@@ -1,0 +1,18 @@
+services:
+  onlyoffice-redis:
+    image: ${REGISTRY}${REDIS_IMAGE_NAME}
+    container_name: ${REDIS_CONTAINER_NAME}
+    restart: always
+    expose:
+      - "6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      retries: 3
+      start_period: 10s
+      timeout: 10s
+
+networks:
+  default:
+    name: ${NETWORK_NAME}
+    external: true

@@ -1,0 +1,50 @@
+2025-07-30T14:24:41.214738Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 41
+2025-07-30T14:24:41.217133Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:24:41.217141Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:24:41.217207Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:24:41.217703Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-07-30 14:24:43+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.3.0-1.el8 started.
+2025-07-30 14:24:43+00:00 [Note] [Entrypoint]: Initializing database files
+mysqld: Can't create/write to file '/var/lib/mysql/is_writable' (OS errno 13 - Permission denied)
+2025-07-30T14:24:43.436786Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-07-30T14:24:43.438887Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 41
+2025-07-30T14:24:43.450382Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:24:43.450396Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:24:43.450465Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:24:43.451007Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-07-30 14:24:47+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.3.0-1.el8 started.
+2025-07-30 14:24:47+00:00 [Note] [Entrypoint]: Initializing database files
+mysqld: Can't create/write to file '/var/lib/mysql/is_writable' (OS errno 13 - Permission denied)
+2025-07-30T14:24:47.563426Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-07-30T14:24:47.569179Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 41
+2025-07-30T14:24:47.579210Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:24:47.579226Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:24:47.581380Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:24:47.583085Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-07-30 14:24:54+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.3.0-1.el8 started.
+2025-07-30 14:24:54+00:00 [Note] [Entrypoint]: Initializing database files
+mysqld: Can't create/write to file '/var/lib/mysql/is_writable' (OS errno 13 - Permission denied)
+2025-07-30T14:24:54.888275Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-07-30T14:24:54.891492Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 40
+2025-07-30T14:24:54.893338Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:24:54.893347Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:24:54.893407Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:24:54.893796Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-07-30 14:25:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.3.0-1.el8 started.
+2025-07-30 14:25:08+00:00 [Note] [Entrypoint]: Initializing database files
+mysqld: Can't create/write to file '/var/lib/mysql/is_writable' (OS errno 13 - Permission denied)
+2025-07-30T14:25:08.362384Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-07-30T14:25:08.364442Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 41
+2025-07-30T14:25:08.366401Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:25:08.366412Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:25:08.366482Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:25:08.366918Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2025-07-30 14:25:34+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.3.0-1.el8 started.
+2025-07-30 14:25:34+00:00 [Note] [Entrypoint]: Initializing database files
+mysqld: Can't create/write to file '/var/lib/mysql/is_writable' (OS errno 13 - Permission denied)
+2025-07-30T14:25:34.588454Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2025-07-30T14:25:34.591523Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 41
+2025-07-30T14:25:34.594206Z 0 [ERROR] [MY-010460] [Server] --initialize specified but the data directory exists and is not writable. Aborting.
+2025-07-30T14:25:34.594216Z 0 [ERROR] [MY-013236] [Server] The designated data directory /var/lib/mysql/ is unusable. You can remove all files that the server added to it.
+2025-07-30T14:25:34.594327Z 0 [ERROR] [MY-010119] [Server] Aborting
+2025-07-30T14:25:34.595054Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.

@@ -1,0 +1,23 @@
+find: ‘/var/www/onlyoffice/Data/certs’: No such file or directory
+Generating WOPI private key...Done
+Generating WOPI public key...Done
+ * Starting PostgreSQL 16 database server
+   ...done.
+ * Starting RabbitMQ Messaging Server rabbitmq-server
+   ...done.
+Connection to localhost (::1) 5432 port [tcp/postgresql] succeeded!
+Connection to localhost (::1) 5672 port [tcp/amqp] succeeded!
+Starting supervisor: supervisord.
+ * Starting periodic command scheduler cron
+   ...done.
+ * Starting nginx nginx
+   ...done.
+Generating AllFonts.js, please wait...Done
+Generating presentation themes, please wait...Done
+Generating js caches, please wait...Done
+ds:docservice: stopped
+ds:docservice: started
+ds:converter: stopped
+ds:converter: started
+ * Reloading nginx configuration nginx
+   ...done.

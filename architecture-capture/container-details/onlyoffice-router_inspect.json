@@ -1,0 +1,333 @@
+[
+    {
+        "Id": "71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660",
+        "Created": "2025-07-30T14:24:30.430056432Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "/usr/local/openresty/bin/openresty",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 60940,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-30T14:24:33.425906517Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-07-30T14:24:39.12053419Z",
+                        "End": "2025-07-30T14:24:39.267990538Z",
+                        "ExitCode": 0,
+                        "Output": "2025/07/30 14:24:39 [warn] 44#44: could not build optimal variables_hash, you should increase either variables_hash_max_size: 1024 or variables_hash_bucket_size: 64; ignoring variables_hash_bucket_size\nnginx: [warn] could not build optimal variables_hash, you should increase either variables_hash_max_size: 1024 or variables_hash_bucket_size: 64; ignoring variables_hash_bucket_size\nnginx: the configuration file /usr/local/openresty/nginx/conf/nginx.conf syntax is ok\nnginx: configuration file /usr/local/openresty/nginx/conf/nginx.conf test is successful\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:39.269273225Z",
+                        "End": "2025-07-30T14:25:39.378615085Z",
+                        "ExitCode": 0,
+                        "Output": "2025/07/30 14:25:39 [warn] 51#51: could not build optimal variables_hash, you should increase either variables_hash_max_size: 1024 or variables_hash_bucket_size: 64; ignoring variables_hash_bucket_size\nnginx: [warn] could not build optimal variables_hash, you should increase either variables_hash_max_size: 1024 or variables_hash_bucket_size: 64; ignoring variables_hash_bucket_size\nnginx: the configuration file /usr/local/openresty/nginx/conf/nginx.conf syntax is ok\nnginx: configuration file /usr/local/openresty/nginx/conf/nginx.conf test is successful\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:2b2eab2b68485f44c0d73195a0b5772dbc7c22739db8e8d2af8b2db4bd109766",
+        "ResolvConfPath": "/var/lib/docker/containers/71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660/hostname",
+        "HostsPath": "/var/lib/docker/containers/71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660/hosts",
+        "LogPath": "/var/lib/docker/containers/71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660/71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660-json.log",
+        "Name": "/onlyoffice-router",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/mnt/docspace_data/log_data:/var/log/onlyoffice:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "onlyoffice",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "71f91ff040c699a46595c68678343552b0bb0a5b30263fe31c4a9d89455cf660",
+                "LowerDir": "/var/lib/docker/overlay2/70dc4836ef8c781da8e3a954920f8583636afb4e8742c934a271b6b169764b67-init/diff:/var/lib/docker/overlay2/f93ebf51f71c7971f5c818a5343c00cb7cea11968b9751a6444019e4c5be3468/diff:/var/lib/docker/overlay2/8c123957ba1cc9728b4ce72b102b203ad32201dfe4169ca7fb0a97a8e5a295e0/diff:/var/lib/docker/overlay2/4b142b8fbc26445046e8e9edf98beb5d09b15a92dfee8ff345fe81e7e46ffc73/diff:/var/lib/docker/overlay2/f385861b7864ea5b4022ef64721cdd96456a305ed9a78b91983aea1f6e51a808/diff:/var/lib/docker/overlay2/8e07eb39052ed44be702e97fa36acdfb33c247d6aa40d1ae044350b3c411a239/diff:/var/lib/docker/overlay2/97a20d20e95980907c6f540a1f11a394007bae40c4871754b5fc38ea7aab67d8/diff:/var/lib/docker/overlay2/57991e0e0b020ca6025ee83fa7b3c91a1be5da31345d786694059e208e094650/diff:/var/lib/docker/overlay2/dd6f1aba0993b0aeea33ed6c11bfb43a590deaff93966296436da175cb8afb4b/diff:/var/lib/docker/overlay2/6bfb34402a34c3a0d44caf0ea7b0097b4c36ff9f5875f15ed0c8baaad06bbbdf/diff:/var/lib/docker/overlay2/444ea44b434710050129ee76f87ee0ff35ab8fee6bf2caeaa2696687d8bfffe3/diff:/var/lib/docker/overlay2/de765c22cb66eeae9ff8d22320392b4f02969d8a456bb14b9e0459c0b8125dcf/diff:/var/lib/docker/overlay2/99f0817f939189f4c8fa1efb675a9554d3922fb9ea9761e8dbf943edff5ce15e/diff:/var/lib/docker/overlay2/17e34d5cfd9246b663b230030a527745ee3ca033e01edb178fb11ca73d8fdff9/diff:/var/lib/docker/overlay2/7478f5755a6eaaab098c26836ac3a61e2b95440a468152c268fb152c15c3f79b/diff:/var/lib/docker/overlay2/ad2f104892b7267e08db9947052ba536c177fb4cce610118effca3b7037ae036/diff:/var/lib/docker/overlay2/dacd62c532069313bc33e42d0512e7fdf123fc1c7150283da0a2cc27af46b507/diff:/var/lib/docker/overlay2/a0c115d1ea7ed819b576d9c1d16b5e922adef6c17dd8c8253119c19a0fb3d962/diff:/var/lib/docker/overlay2/629701433ed93c982ef22ab184002cf4f42a2a90d113d1d06ae1bdbc4f3a03e1/diff:/var/lib/docker/overlay2/6f9840c14710a22f32455477cc0d2034316869225f289ddf58fd854a1e6b1004/diff:/var/lib/docker/overlay2/65781276d6c47b88c8463ec647fbe5f14198b4ff1683f24b43abb93a4c52a231/diff:/var/lib/docker/overlay2/28daf7e2e972a494b218a85180f9afae08d16220c210384c0eba226bc02a11d4/diff:/var/lib/docker/overlay2/fc4ce8438a7b37caa3f0b43d6debfa54838a63090386a5b498519fefc73a2dd6/diff:/var/lib/docker/overlay2/8f1b516a2264f67ea88d8729870507416afc618fe44fd9203f7459a4812ffae7/diff:/var/lib/docker/overlay2/bdc29cef201724c2164cc0865e6614ff3815c675c83afd88c660783e6f4dc2ab/diff:/var/lib/docker/overlay2/46be5055a76242bacdbcb27715d242289654648b1122ec1395b4201dc26eba78/diff:/var/lib/docker/overlay2/149f38c7f655842c02822421a8eab66feaacdb169bc689cefb34c3b519d0e810/diff:/var/lib/docker/overlay2/42e0c763d61352610d8087b114dddb94864041fc1bbe3dc2efc3518b2da63808/diff",
+                "MergedDir": "/var/lib/docker/overlay2/70dc4836ef8c781da8e3a954920f8583636afb4e8742c934a271b6b169764b67/merged",
+                "UpperDir": "/var/lib/docker/overlay2/70dc4836ef8c781da8e3a954920f8583636afb4e8742c934a271b6b169764b67/diff",
+                "WorkDir": "/var/lib/docker/overlay2/70dc4836ef8c781da8e3a954920f8583636afb4e8742c934a271b6b169764b67/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/log_data",
+                "Destination": "/var/log/onlyoffice",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "71f91ff040c6",
+            "Domainname": "",
+            "User": "root:root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8081": {},
+                "8092": {},
+                "8099": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "SERVICE_SSOAUTH=onlyoffice-ssoauth:5050",
+                "DOCUMENT_CONTAINER_NAME=onlyoffice-document-server",
+                "SERVICE_IDENTITY=onlyoffice-identity-authorization:8080",
+                "SERVICE_PORT=5050",
+                "SERVICE_API=onlyoffice-api:5050",
+                "SERVICE_BACKUP=onlyoffice-backup:5050",
+                "SERVICE_HELTHCHECKS=onlyoffice-healthchecks:5050",
+                "REDIS_HOST=",
+                "SERVICE_SDK=onlyoffice-sdk:5050",
+                "DASHBOARDS_PASSWORD=YkX7N0LwH8m3tLaG2WAe",
+                "REDIS_PASSWORD=",
+                "DASHBOARDS_CONTAINER_NAME=onlyoffice-opensearch-dashboards",
+                "SERVICE_IDENTITY_API=onlyoffice-identity-api:9090",
+                "SERVICE_NOTIFY=onlyoffice-notify:5050",
+                "SERVICE_STUDIO_NOTIFY=onlyoffice-studio-notify:5050",
+                "SERVICE_SOCKET=onlyoffice-socket:5050",
+                "SERVICE_FILES=onlyoffice-files:5050",
+                "REDIS_PORT=6379",
+                "REDIS_CONTAINER_NAME=onlyoffice-redis",
+                "SERVICE_PEOPLE_SERVER=onlyoffice-people-server:5050",
+                "SERVICE_CLEAR_EVENTS=onlyoffice-clear-events:5050",
+                "SERVICE_LOGIN=onlyoffice-login:5050",
+                "SERVICE_API_SYSTEM=onlyoffice-api-system:5050",
+                "SERVICE_STUDIO=onlyoffice-studio:5050",
+                "DASHBOARDS_USERNAME=onlyoffice",
+                "DOCUMENT_SERVER_URL_EXTERNAL=",
+                "REDIS_DB=0",
+                "WRONG_PORTAL_NAME_URL=",
+                "SERVICE_DOCEDITOR=onlyoffice-doceditor:5050",
+                "SERVICE_FILES_SERVICES=onlyoffice-files-services:5050",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/openresty/luajit/bin:/usr/local/openresty/nginx/sbin:/usr/local/openresty/bin",
+                "LUA_PATH=/usr/local/openresty/site/lualib/?.ljbc;/usr/local/openresty/site/lualib/?/init.ljbc;/usr/local/openresty/lualib/?.ljbc;/usr/local/openresty/lualib/?/init.ljbc;/usr/local/openresty/site/lualib/?.lua;/usr/local/openresty/site/lualib/?/init.lua;/usr/local/openresty/lualib/?.lua;/usr/local/openresty/lualib/?/init.lua;./?.lua;/usr/local/openresty/luajit/share/luajit-2.1/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua;/usr/local/openresty/luajit/share/lua/5.1/?.lua;/usr/local/openresty/luajit/share/lua/5.1/?/init.lua",
+                "LUA_CPATH=/usr/local/openresty/site/lualib/?.so;/usr/local/openresty/lualib/?.so;./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/openresty/luajit/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so;/usr/local/openresty/luajit/lib/lua/5.1/?.so",
+                "DNS_NAMESERVER=127.0.0.11",
+                "COUNT_WORKER_CONNECTIONS=1024",
+                "MAP_HASH_BUCKET_SIZE="
+            ],
+            "Cmd": [
+                "/usr/local/openresty/bin/openresty",
+                "-g",
+                "daemon off;"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "nginx -t || exit 1"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "onlyoffice/docspace-router:3.2.1.1",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "bcf2783a38d24b4d1574f9bef28eeb6acf189c36ec1535ee753562f5715d444a",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "onlyoffice-backup-background-tasks:service_started:false,onlyoffice-files-services:service_started:false,onlyoffice-studio-notify:service_started:false,onlyoffice-socket:service_started:false,onlyoffice-files:service_started:false,onlyoffice-studio:service_started:false,onlyoffice-doceditor:service_started:false,onlyoffice-api:service_started:false,onlyoffice-login:service_started:false,onlyoffice-sdk:service_started:false,onlyoffice-backup:service_started:false,onlyoffice-clear-events:service_started:false,onlyoffice-api-system:service_started:false,onlyoffice-ssoauth:service_started:false,onlyoffice-people-server:service_started:false",
+                "com.docker.compose.image": "sha256:2b2eab2b68485f44c0d73195a0b5772dbc7c22739db8e8d2af8b2db4bd109766",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "onlyoffice",
+                "com.docker.compose.project.config_files": "/app/onlyoffice/docspace.yml,/app/onlyoffice/db.yml,/app/onlyoffice/ds.yml,/app/onlyoffice/proxy.yml",
+                "com.docker.compose.project.working_dir": "/app/onlyoffice",
+                "com.docker.compose.service": "onlyoffice-router",
+                "com.docker.compose.version": "2.38.2",
+                "maintainer": "Evan Wies <evan@neomantra.net>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "20.04",
+                "resty_add_package_builddeps": "",
+                "resty_add_package_rundeps": "",
+                "resty_config_deps": "--with-pcre     --with-cc-opt='-DNGX_LUA_ABORT_AT_PANIC -I/usr/local/openresty/pcre2/include -I/usr/local/openresty/openssl3/include'     --with-ld-opt='-L/usr/local/openresty/pcre2/lib -L/usr/local/openresty/openssl3/lib -Wl,-rpath,/usr/local/openresty/pcre2/lib:/usr/local/openresty/openssl3/lib'     ",
+                "resty_config_options": "    --with-compat     --without-http_rds_json_module     --without-http_rds_csv_module     --without-lua_rds_parser     --without-mail_pop3_module     --without-mail_imap_module     --without-mail_smtp_module     --with-http_addition_module     --with-http_auth_request_module     --with-http_dav_module     --with-http_flv_module     --with-http_geoip_module=dynamic     --with-http_gunzip_module     --with-http_gzip_static_module     --with-http_image_filter_module=dynamic     --with-http_mp4_module     --with-http_random_index_module     --with-http_realip_module     --with-http_secure_link_module     --with-http_slice_module     --with-http_ssl_module     --with-http_stub_status_module     --with-http_sub_module     --with-http_v2_module     --with-http_v3_module     --with-http_xslt_module=dynamic     --with-ipv6     --with-mail     --with-mail_ssl_module     --with-md5-asm     --with-sha1-asm     --with-stream     --with-stream_ssl_module     --with-stream_ssl_preread_module     --with-threads     ",
+                "resty_config_options_more": "",
+                "resty_eval_post_download_pre_configure": "",
+                "resty_eval_post_make": "",
+                "resty_eval_pre_configure": "",
+                "resty_eval_pre_make": "",
+                "resty_image_base": "ubuntu",
+                "resty_image_tag": "focal",
+                "resty_luajit_options": "--with-luajit-xcflags='-DLUAJIT_NUMMODE=2 -DLUAJIT_ENABLE_LUA52COMPAT'",
+                "resty_luarocks_version": "3.12.0",
+                "resty_openssl_build_options": "enable-camellia enable-seed enable-rfc3779 enable-cms enable-md2 enable-rc5         enable-weak-ssl-ciphers enable-ssl3 enable-ssl3-method enable-md2 enable-ktls enable-fips         ",
+                "resty_openssl_patch_version": "3.4.1",
+                "resty_openssl_url_base": "https://github.com/openssl/openssl/releases/download/openssl-3.4.1",
+                "resty_openssl_version": "3.4.1",
+                "resty_pcre_build_options": "--enable-jit --enable-pcre2grep-jit --disable-bsr-anycrlf --disable-coverage --disable-ebcdic --disable-fuzz-support     --disable-jit-sealloc --disable-never-backslash-C --enable-newline-is-lf --enable-pcre2-8 --enable-pcre2-16 --enable-pcre2-32     --enable-pcre2grep-callout --enable-pcre2grep-callout-fork --disable-pcre2grep-libbz2 --disable-pcre2grep-libz --disable-pcre2test-libedit     --enable-percent-zt --disable-rebuild-chartables --enable-shared --disable-static --disable-silent-rules --enable-unicode --disable-valgrind     ",
+                "resty_pcre_options": "--with-pcre-jit",
+                "resty_pcre_sha256": "86b9cb0aa3bcb7994faa88018292bc704cdbb708e785f7c74352ff6ea7d3175b",
+                "resty_pcre_version": "10.44",
+                "resty_version": "1.27.1.2"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "ad32717d9a4e7c4b5586f98d7df4bd3b4e0410bbb58f8828d6179f2691727115",
+            "SandboxKey": "/var/run/docker/netns/ad32717d9a4e",
+            "Ports": {
+                "8081/tcp": null,
+                "8092/tcp": null,
+                "8099/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "onlyoffice": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "onlyoffice-router",
+                        "onlyoffice-router"
+                    ],
+                    "MacAddress": "02:82:ff:fc:14:57",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5fb3d13dfdc985ef2a0ed6e9836181257cf5e1e2d8262e0e3c867cce765ee2cc",
+                    "EndpointID": "26612b42030a5f0274d692c8f614456f3452d86d42e5654bab8c2dc5ad3dfab8",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.20",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "onlyoffice-router",
+                        "71f91ff040c6"
+                    ]
+                }
+            }
+        }
+    }
+]

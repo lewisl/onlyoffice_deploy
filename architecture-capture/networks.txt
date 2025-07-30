@@ -1,0 +1,83 @@
+=== Network Configuration ===
+NETWORK ID     NAME         DRIVER    SCOPE
+bad4e48331da   bridge       bridge    local
+6b81c81e4239   host         host      local
+2474a444f4da   none         null      local
+5fb3d13dfdc9   onlyoffice   bridge    local
+
+--- onlyoffice-router ---
+Network: onlyoffice, IP: 172.18.0.20
+
+
+--- onlyoffice-mysql-server ---
+Network: onlyoffice, IP: 
+
+
+--- onlyoffice-doceditor ---
+Network: onlyoffice, IP: 172.18.0.3
+
+
+--- onlyoffice-files ---
+Network: onlyoffice, IP: 172.18.0.17
+
+
+--- onlyoffice-backup-background-tasks ---
+Network: onlyoffice, IP: 172.18.0.8
+
+
+--- onlyoffice-document-server ---
+Network: onlyoffice, IP: 172.18.0.7
+
+
+--- onlyoffice-ssoauth ---
+Network: onlyoffice, IP: 172.18.0.11
+
+
+--- onlyoffice-proxy ---
+Network: onlyoffice, IP: 172.18.0.5
+
+
+--- onlyoffice-sdk ---
+Network: onlyoffice, IP: 172.18.0.14
+
+
+--- onlyoffice-backup ---
+Network: onlyoffice, IP: 172.18.0.13
+
+
+--- onlyoffice-files-services ---
+Network: onlyoffice, IP: 172.18.0.2
+
+
+--- onlyoffice-socket ---
+Network: onlyoffice, IP: 172.18.0.18
+
+
+--- onlyoffice-studio ---
+Network: onlyoffice, IP: 172.18.0.6
+
+
+--- onlyoffice-api ---
+Network: onlyoffice, IP: 172.18.0.15
+
+
+--- onlyoffice-studio-notify ---
+Network: onlyoffice, IP: 172.18.0.12
+
+
+--- onlyoffice-people-server ---
+Network: onlyoffice, IP: 172.18.0.10
+
+
+--- onlyoffice-login ---
+Network: onlyoffice, IP: 172.18.0.4
+
+
+--- onlyoffice-api-system ---
+Network: onlyoffice, IP: 172.18.0.9
+
+
+--- onlyoffice-clear-events ---
+Network: onlyoffice, IP: 172.18.0.16
+
+

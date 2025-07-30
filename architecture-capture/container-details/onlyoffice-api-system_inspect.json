@@ -1,0 +1,349 @@
+[
+    {
+        "Id": "1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa",
+        "Created": "2025-07-30T14:24:30.22795973Z",
+        "Path": "python3",
+        "Args": [
+            "docker-entrypoint.py",
+            "ASC.ApiSystem.dll",
+            "ASC.ApiSystem"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 60188,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-07-30T14:24:31.035356427Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "starting",
+                "FailingStreak": 2,
+                "Log": [
+                    {
+                        "Start": "2025-07-30T14:24:37.325535926Z",
+                        "End": "2025-07-30T14:24:37.838167358Z",
+                        "ExitCode": 1,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to onlyoffice-api-system port 5050 after 5 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:24:42.839402838Z",
+                        "End": "2025-07-30T14:24:42.945443184Z",
+                        "ExitCode": 1,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to onlyoffice-api-system port 5050 after 1 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:24:47.946603984Z",
+                        "End": "2025-07-30T14:24:48.066194474Z",
+                        "ExitCode": 1,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to onlyoffice-api-system port 5050 after 2 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:24:53.067459594Z",
+                        "End": "2025-07-30T14:24:53.206813653Z",
+                        "ExitCode": 1,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to onlyoffice-api-system port 5050 after 9 ms: Couldn't connect to server\n"
+                    },
+                    {
+                        "Start": "2025-07-30T14:25:53.207586021Z",
+                        "End": "2025-07-30T14:25:53.283967867Z",
+                        "ExitCode": 1,
+                        "Output": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to onlyoffice-api-system port 5050 after 3 ms: Couldn't connect to server\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:4579050a449732ac6ddee4e1384f407d27d360f84a3f535f2ae2ffd3f4ed730f",
+        "ResolvConfPath": "/var/lib/docker/containers/1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa/hostname",
+        "HostsPath": "/var/lib/docker/containers/1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa/hosts",
+        "LogPath": "/var/lib/docker/containers/1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa/1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa-json.log",
+        "Name": "/onlyoffice-api-system",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/mnt/docspace_data/app_data:/app/onlyoffice/data:rw",
+                "/mnt/docspace_data/log_data:/var/log/onlyoffice:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "onlyoffice",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "1c9549eaa4f8fcaec7f8a0101dfa2e43e4bfd43d1b0abde5fe373a1d1e758efa",
+                "LowerDir": "/var/lib/docker/overlay2/1f76d5a49d3efc14bea657e8626afc03f54bace40b6c8f28c4be57e5f4ee4429-init/diff:/var/lib/docker/overlay2/f706ea33acc2e5546c21c218cdcba99bda0736142b9cca7de5743e7fe14ed4b6/diff:/var/lib/docker/overlay2/5b2ba900ee98c6c94e7d5d791ec0d2d3a1722e7d08ddb5f96e75a2f3b1ed77db/diff:/var/lib/docker/overlay2/204235dbf46f8674580d9bb3a23fbdcac080b1eee492ca94b3449b12d269e37e/diff:/var/lib/docker/overlay2/7adc1391410facfe8daf3153b1fde0e3d7ab8b50551c227f9c24012fcfd14f56/diff:/var/lib/docker/overlay2/2fc83e11999d9dd57bee982b0d5e0e8059c79d9a09163cf60d8ff39137254362/diff:/var/lib/docker/overlay2/cfb1a640f8b6865cc8197b948d3c3ba583cd1155d99ca882d48fcee05358d59a/diff:/var/lib/docker/overlay2/fafec11c5ca703c3c0303bc7eaeea4548f163aa961f9ebd815ae28de6f0b125c/diff:/var/lib/docker/overlay2/3c49459ae655f222da5060df4cdff5641aefa6d2602e4fa0ecf6dacd69a7fbca/diff:/var/lib/docker/overlay2/f6f36eece76588e37143a28786f64d17a118beb15a2b01428c6d987636892db3/diff:/var/lib/docker/overlay2/7ca075dcc50bc5ef0dababf0c5683c8bf92dbaaa9a9b7f9e91255cddfcef87ac/diff:/var/lib/docker/overlay2/9fcfa1423b42499567b0ac77a471c94d28bd0df91dc952c7d715bc7146388f4e/diff",
+                "MergedDir": "/var/lib/docker/overlay2/1f76d5a49d3efc14bea657e8626afc03f54bace40b6c8f28c4be57e5f4ee4429/merged",
+                "UpperDir": "/var/lib/docker/overlay2/1f76d5a49d3efc14bea657e8626afc03f54bace40b6c8f28c4be57e5f4ee4429/diff",
+                "WorkDir": "/var/lib/docker/overlay2/1f76d5a49d3efc14bea657e8626afc03f54bace40b6c8f28c4be57e5f4ee4429/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/app_data",
+                "Destination": "/app/onlyoffice/data",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/mnt/docspace_data/log_data",
+                "Destination": "/var/log/onlyoffice",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "1c9549eaa4f8",
+            "Domainname": "",
+            "User": "root:root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "5050": {},
+                "5050/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "MYSQL_DATABASE=docspace",
+                "RABBIT_PORT=5672",
+                "REDIS_PORT=6379",
+                "MYSQL_PORT=3306",
+                "RABBIT_CONTAINER_NAME=onlyoffice-rabbitmq",
+                "DOCUMENT_SERVER_JWT_SECRET=bTRRro7INTYwlO0PvBajZprIrklW1HBR",
+                "REDIS_CONTAINER_NAME=onlyoffice-redis",
+                "DOCUMENT_SERVER_JWT_HEADER=AuthorizationJwt",
+                "ELK_CONTAINER_NAME=onlyoffice-opensearch",
+                "RABBIT_VIRTUAL_HOST=/",
+                "REDIS_DB=0",
+                "MYSQL_CONTAINER_NAME=onlyoffice-mysql-server",
+                "ELK_SHEME=http",
+                "DEBUG_INFO=false",
+                "APP_CORE_SERVER_ROOT=",
+                "ROUTER_HOST=onlyoffice-router",
+                "LOG_LEVEL=Warning",
+                "RABBIT_HOST=",
+                "REDIS_PASSWORD=",
+                "OAUTH_REDIRECT_URL=https://service.onlyoffice.com/oauth2.aspx",
+                "DOCUMENT_CONTAINER_NAME=onlyoffice-document-server",
+                "RABBIT_PROTOCOL=",
+                "RABBIT_PASSWORD=guest",
+                "APP_KNOWN_PROXIES=",
+                "ELK_PORT=9200",
+                "REDIS_HOST=",
+                "DATABASE_MIGRATION=true",
+                "REDIS_USER_NAME=",
+                "CERTIFICATE_PATH=",
+                "APP_KNOWN_NETWORKS=",
+                "INSTALLATION_TYPE=COMMUNITY",
+                "MYSQL_ROOT_PASSWORD=tFp7uKGHzB1hGCWHES1N",
+                "RABBIT_USER_NAME=guest",
+                "MYSQL_HOST=",
+                "APP_CORE_BASE_DOMAIN=localhost",
+                "NODE_OPTIONS=--max_old_space_size=4096",
+                "MYSQL_PASSWORD=JO8PWS9l9H53T1UZppEe",
+                "APP_URL_PORTAL=http://onlyoffice-router:8092",
+                "ELK_HOST=",
+                "DOCUMENT_SERVER_URL_EXTERNAL=",
+                "APP_DOTNET_ENV=",
+                "DOCUMENT_SERVER_URL_PUBLIC=/ds-vpath/",
+                "MYSQL_USER=onlyoffice_user",
+                "APP_CORE_MACHINEKEY=iAHzTMx8Lx05",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "APP_UID=1654",
+                "ASPNETCORE_HTTP_PORTS=8080",
+                "DOTNET_RUNNING_IN_CONTAINER=true",
+                "DOTNET_VERSION=9.0.7",
+                "ASPNET_VERSION=9.0.7",
+                "BUILD_PATH=/var/www",
+                "SRC_PATH=/app/onlyoffice/src"
+            ],
+            "Cmd": [
+                "ASC.ApiSystem.dll",
+                "ASC.ApiSystem"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "curl --fail http://onlyoffice-api-system:5050/health/ || exit 1"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 10000000000,
+                "StartPeriod": 20000000000,
+                "Retries": 5
+            },
+            "Image": "onlyoffice/docspace-api-system:3.2.1.1",
+            "Volumes": null,
+            "WorkingDir": "/var/www/services/ASC.ApiSystem/",
+            "Entrypoint": [
+                "python3",
+                "docker-entrypoint.py"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "c6bb32e8374baa0633bf2f663f1c54b9c2782826d6d4b1c2f57d86656d4dd30d",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:4579050a449732ac6ddee4e1384f407d27d360f84a3f535f2ae2ffd3f4ed730f",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "onlyoffice",
+                "com.docker.compose.project.config_files": "/app/onlyoffice/docspace.yml,/app/onlyoffice/db.yml,/app/onlyoffice/ds.yml,/app/onlyoffice/proxy.yml",
+                "com.docker.compose.project.working_dir": "/app/onlyoffice",
+                "com.docker.compose.service": "onlyoffice-api-system",
+                "com.docker.compose.version": "2.38.2",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "46d68e2a0f60b792df9106ba8ea63347efbc0913a8bdef94b454eca5cdcbc397",
+            "SandboxKey": "/var/run/docker/netns/46d68e2a0f60",
+            "Ports": {
+                "5050/tcp": null
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "onlyoffice": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "onlyoffice-api-system",
+                        "onlyoffice-api-system"
+                    ],
+                    "MacAddress": "8a:69:2b:09:c7:a2",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "5fb3d13dfdc985ef2a0ed6e9836181257cf5e1e2d8262e0e3c867cce765ee2cc",
+                    "EndpointID": "a5d530e3e49be5e18bc3701d54b439a97c2a8009501d8029ad83d249d92fc64d",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.9",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "onlyoffice-api-system",
+                        "1c9549eaa4f8"
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,23 @@
+=== Container Overview ===
+NAMES                                IMAGE                                           STATUS                                 PORTS
+onlyoffice-router                    onlyoffice/docspace-router:3.2.1.1              Up About a minute (healthy)            8081/tcp, 8092/tcp, 8099/tcp
+onlyoffice-mysql-server              mysql:8.3.0                                     Restarting (1) 16 seconds ago          
+onlyoffice-doceditor                 onlyoffice/docspace-doceditor:3.2.1.1           Up About a minute (healthy)            5013/tcp, 5050/tcp
+onlyoffice-files                     onlyoffice/docspace-files:3.2.1.1               Up About a minute (health: starting)   5050/tcp
+onlyoffice-backup-background-tasks   onlyoffice/docspace-backup-background:3.2.1.1   Up About a minute (health: starting)   5050/tcp
+onlyoffice-document-server           onlyoffice/documentserver:9.0.3.1               Up About a minute (healthy)            80/tcp, 443/tcp
+onlyoffice-ssoauth                   onlyoffice/docspace-ssoauth:3.2.1.1             Up About a minute (healthy)            5050/tcp, 9834/tcp
+onlyoffice-proxy                     nginx:latest                                    Up About a minute (healthy)            0.0.0.0:80->80/tcp, [::]:80->80/tcp
+onlyoffice-sdk                       onlyoffice/docspace-sdk:3.2.1.1                 Up About a minute (healthy)            5050/tcp
+onlyoffice-backup                    onlyoffice/docspace-backup:3.2.1.1              Up About a minute (health: starting)   5050/tcp
+onlyoffice-files-services            onlyoffice/docspace-files-services:3.2.1.1      Up About a minute (health: starting)   5050/tcp
+onlyoffice-socket                    onlyoffice/docspace-socket:3.2.1.1              Up About a minute (health: starting)   5050/tcp
+onlyoffice-studio                    onlyoffice/docspace-studio:3.2.1.1              Up About a minute (health: starting)   5050/tcp
+onlyoffice-api                       onlyoffice/docspace-api:3.2.1.1                 Up About a minute (health: starting)   5050/tcp
+onlyoffice-studio-notify             onlyoffice/docspace-studio-notify:3.2.1.1       Up About a minute (health: starting)   5050/tcp
+onlyoffice-people-server             onlyoffice/docspace-people-server:3.2.1.1       Up About a minute (health: starting)   5050/tcp
+onlyoffice-login                     onlyoffice/docspace-login:3.2.1.1               Up About a minute (healthy)            5011/tcp, 5050/tcp
+onlyoffice-api-system                onlyoffice/docspace-api-system:3.2.1.1          Up About a minute (health: starting)   5050/tcp
+onlyoffice-clear-events              onlyoffice/docspace-clear-events:3.2.1.1        Up About a minute (health: starting)   5050/tcp
+
+Total containers: 19

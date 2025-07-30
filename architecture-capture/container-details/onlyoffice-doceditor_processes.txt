@@ -1,0 +1,4 @@
+UID                 PID                 PPID                C                   STIME               TTY                 TIME                CMD
+root                59743               59602               0                   14:24               ?                   00:00:00            python3 docker-entrypoint.py server.js ASC.Editors
+root                60661               59743               0                   14:24               ?                   00:00:00            sh -c node server.js --app.port=5050 --app.appsettings=/app/onlyoffice/config --app.environment=community
+root                60662               60661               2                   14:24               ?                   00:00:02            next-server (v14.2.26)

@@ -1,0 +1,14 @@
+  ▲ Next.js 14.2.26
+  - Local:        http://localhost:5050
+  - Network:      http://0.0.0.0:5050
+
+ ✓ Starting...
+ ✓ Ready in 715ms
+HOST onlyoffice-login:5050
+PROTO http
+REDIRECT_URL http://onlyoffice-login:5050
+Get login health check for portal:  http://onlyoffice-login:5050
+HOST onlyoffice-login:5050
+PROTO http
+REDIRECT_URL http://onlyoffice-login:5050
+Get login health check for portal:  http://onlyoffice-login:5050

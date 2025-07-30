@@ -1,0 +1,34 @@
+services:
+  onlyoffice-mysql-server:
+    image: ${REGISTRY}${MYSQL_IMAGE}
+    cap_add:
+      - SYS_NICE
+    container_name: ${MYSQL_CONTAINER_NAME}
+    restart: always
+    tty: true
+    user: mysql
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    healthcheck:
+      test: ["CMD", "mysql", "-u", "${MYSQL_USER}", "--password=${MYSQL_PASSWORD}", "-e", ";"]
+      interval: 10s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+    volumes:
+      - /mnt/docspace_data/mysql_data:/var/lib/mysql
+      - ./config/mysql/conf.d/:/etc/mysql/conf.d
+    networks:
+      - ${NETWORK_NAME}
+
+networks:
+  onlyoffice:
+    name: ${NETWORK_NAME}
+    driver: "bridge"
+    external: true
+

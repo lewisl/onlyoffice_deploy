@@ -1,0 +1,57 @@
+=== OnlyOffice DocSpace Architecture Summary ===
+Generated: Wed Jul 30 14:25:55 UTC 2025
+
+=== Container Architecture ===
+Total containers: 19
+OnlyOffice version: 3.2.1.1
+
+=== Service Categories ===
+API Services:
+onlyoffice-sdk
+onlyoffice-api
+onlyoffice-api-system
+
+Frontend Services:
+onlyoffice-doceditor
+onlyoffice-files
+onlyoffice-files-services
+onlyoffice-socket
+onlyoffice-studio
+onlyoffice-studio-notify
+onlyoffice-login
+
+Backend Services:
+onlyoffice-backup-background-tasks
+onlyoffice-ssoauth
+onlyoffice-backup
+onlyoffice-studio-notify
+onlyoffice-people-server
+onlyoffice-clear-events
+
+Infrastructure Services:
+onlyoffice-router
+onlyoffice-mysql-server
+onlyoffice-document-server
+onlyoffice-proxy
+
+=== Port Mappings ===
+onlyoffice-router                    8081/tcp, 8092/tcp, 8099/tcp
+onlyoffice-mysql-server              
+onlyoffice-doceditor                 5013/tcp, 5050/tcp
+onlyoffice-files                     5050/tcp
+onlyoffice-backup-background-tasks   5050/tcp
+onlyoffice-document-server           80/tcp, 443/tcp
+onlyoffice-ssoauth                   5050/tcp, 9834/tcp
+onlyoffice-proxy                     0.0.0.0:80->80/tcp, [::]:80->80/tcp
+onlyoffice-sdk                       5050/tcp
+onlyoffice-backup                    5050/tcp
+onlyoffice-files-services            5050/tcp
+onlyoffice-socket                    5050/tcp
+onlyoffice-studio                    5050/tcp
+onlyoffice-api                       5050/tcp
+onlyoffice-studio-notify             5050/tcp
+onlyoffice-people-server             5050/tcp
+onlyoffice-login                     5011/tcp, 5050/tcp
+onlyoffice-api-system                5050/tcp
+onlyoffice-clear-events              5050/tcp
+
